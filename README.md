@@ -16,3 +16,5 @@ Once the right model is loaded, we can run the program evaluate.py which prints 
  
 
  Please note that all the programs are configured to run on gpu as it is copmuationally taxing.
+
+For the explanation of the model, please refer to the original paper by the authors.
