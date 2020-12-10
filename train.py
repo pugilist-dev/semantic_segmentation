@@ -10,14 +10,14 @@ import torch
 import torchvision
 from torch.utils.data import DataLoader
 from PIL import Image
-from utils.load_data import load_data
-from model.model import get_fast_scnn
-from utils.loss import MixSoftmaxCrossEntropyLoss, MixSoftmaxCrossEntropyOHEMLoss
-from utils.lr_scheduler import LRScheduler
+from load_data import load_data
+from model import get_fast_scnn
+from loss import MixSoftmaxCrossEntropyLoss, MixSoftmaxCrossEntropyOHEMLoss
+from lr_scheduler import LRScheduler
 import time
 import os
-from utils.get_dataset import dataset
-from utils.data_augmenter import img_aug_transform
+from get_dataset import dataset
+from data_augmenter import img_aug_transform
 
 base_size = 1024
 crop_size = 1024
